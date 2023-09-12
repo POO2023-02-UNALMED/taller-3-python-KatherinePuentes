@@ -1,4 +1,4 @@
-from televisores.tv import TV
+from televisores.tv import TV:
 
 class Control:
 
@@ -23,18 +23,18 @@ class Control:
     def volumenDown(self):
         self.tv.volumenDown()
 
-    def setCanal(self, canal):
-        self.tv.setCanal(canal)
+    def setCanal(self):
+        self.tv.setCanal()
 
-    def setVolumen(self, volumen):
-        self.tv.setVolumen(volumen)
+    def setVolumen(self):
+        self.tv.setVolumen()
 
-    def enlazar(self, tv):
-        self.tv= tv
-        tv.setControl(self)
+    def enlazar(self, tev):
+        self.tv= tev
+        self.tv.setControl(self)
 
     def getTv(self):
         return self.tv
 
-    def setTv(self, tv):
-        self.tv= tv
+    def setTv(self, tel):
+        self.tv= tel
