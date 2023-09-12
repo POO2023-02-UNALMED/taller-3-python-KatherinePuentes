@@ -23,11 +23,9 @@ class Control:
     def volumenDown(self):
         self.tv.volumenDown()
 
-    @classmethod
     def setCanal(self, canal):
         self.tv.setCanal(canal)
 
-    @classmethod
     def setVolumen(self, volumen):
         self.tv.setVolumen(volumen)
 
